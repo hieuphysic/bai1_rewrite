@@ -1,0 +1,313 @@
+body{
+    margin-top: 20px;
+    padding: 0px;
+    background: #787878;
+    color: #616161;
+    font-family: 'Helvetica Neue', 'Lucida Grande', 'Segoe UI', Arial, Helvetica, Verdana, sans-serif;
+    font-size:0.875em;text-align: justify;
+}
+#header{
+    width: 1000px;
+    height: 100px;
+    margin: 0 auto;
+    background-color:white;
+    border-top-left-radius: 30px;
+}
+#header img{
+    float:left;
+    padding-left: 30px;
+}
+#logo{
+    padding: 12px 0px 0px 20px;
+    float:left;
+}
+#logo h1{
+    text-shadow: 3px 3px 3px #b9a698;
+}
+#name{
+    color: red;
+}
+#slogan{
+    color: #58634a;
+    font-size: 11pt;
+    font-weight: bold;
+    margin-top: 42px;
+    float:left;
+}
+#menuContainer{
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+#menu{
+    width: 990px;
+    height: 50px;
+    margin: 0 auto;
+    padding: 0px;
+    border-radius: 20px 0px 20px 0px;
+    background: linear-gradient(#6e0001,#aa0514);
+}
+.topnav {
+    height: 50px;
+    float: left;
+    margin: 0px 20px 0px 20px;
+}
+.topnav a {
+    display: block;
+    float: left;
+    border-right: 1px solid #68092d;
+    padding: 14px 16px;
+    width: auto;
+    text-align: center;
+    color: white;
+    font-size: 12pt;
+    text-decoration: none;
+}
+.topnav:last-child{
+    border-right: none;
+}
+.topnav a:hover {
+    background-color: #c4151f;
+}
+.icon{
+    float:left;
+    margin: 5px 5px 0px 0px;
+    height: 15px;
+}
+.timkiem{
+    float:left;
+    margin: 15px 0px 0px 0px;
+    background-color: #ffffff
+}
+#mainContainer{
+    width: 990px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px 5px 0px 5px;
+    border-bottom: 1px solid #71121d;
+}
+#sidebar1{
+    width:220px;
+    float:left;
+}
+.subsidebar iframe{
+    border: none;
+}
+#maincontent{
+    width: 770px;
+    float:left;
+    padding-bottom: 10px;
+}
+#banner{
+    height:400px;
+    margin-left: 20px;
+    background-image: url(../Images/Cuahang_01.jpg);
+    background-repeat: no-repeat;
+}
+#banner p{
+    float: right;
+    margin-top: 0px;
+    color: red;
+    font-weight: bold;
+    background-color: #f9f8f8;
+}
+.contentItem{
+    padding-left: 20px;
+}
+.contentItem .tieude{
+    height: 30px;
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-top: 5px;
+    color: #ffffff;
+    font-size: 12pt;
+    font-weight: bold;
+    background-color: #8c0209;
+}
+.hotimg{
+    margin-top: 4px;
+}
+.hotimg img{
+    width:103.5px;
+    height:180px
+}
+#article{
+    padding-bottom: 6px;
+    line-height:200%;
+    padding-left:20px;
+}
+#article h1, h3{
+    color:red;
+}
+#article p{
+    padding-left:20px;
+}
+.xemchitiet{
+    float:right;
+    color:red;
+    font-weight:bold;
+    background-color:#f9f8f8;
+    margin-top: 0px;
+}
+.dshinh{
+    margin-top: 4px;
+}
+.sanpham{
+    float:left;
+    margin:0px 7px 0px 0px;
+}
+.sanpham p{
+    padding:0px;
+    color: red;
+}
+.hinhdemo{
+    width:180px;
+    height:200px;
+}
+.hinhgiohang {
+    width:28px;
+    height:28px;
+}
+/*5.5. Trang GioiThieu */
+#content{
+    width: 530px;
+    float:left;
+    padding-bottom: 10px;
+}
+#banner2 {
+    height: 250px;
+}
+#banner2 img{
+    width:510px;
+    height:250px;
+    padding-left: 20px;
+}
+.Khauhieu {
+    padding:30px 20px 50px 20px;
+    height: 70px;
+    width: 510px;
+}
+.kh{
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    -ms-border-radius:10px;
+    border-radius:10px;
+    float: left; width:120px; height: 70px;
+    text-align: center;padding-top: 20px;
+    font-weight: bold; font-size:14pt;
+    /*rotate*/
+    transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+}
+#kh1{
+    background-color: #B9A698;color:#14e6f9;
+    background:url("images/imgKh1.png") no-repeat center;
+    border:4px solid #14e6f9;
+    transform: skew(10deg,10deg);
+    -ms-transform: skew(10deg,10deg);
+    -webkit-transform: skew(10deg,10deg);
+
+}
+#kh2{
+    background-color:#d64646; color: #ef90b8;
+    background:url("images/imgKh2.png") no-repeat center;
+    border:4px solid #ef90b8;
+    height: 70px; width: 100px;
+}
+#kh3{background-color:#CA8186; color:#287606; height: 80px;  width:110px;
+    background:url(images/imgKh3.png) no-repeat center;
+    border:4px solid #287606;
+    transform: skew(10deg,10deg);
+    -ms-transform: skew(10deg,10deg);
+    -webkit-transform: skew(10deg,10deg);
+}
+#kh4{
+    background-color:#df2120; color:#ff4c14; width:110px;
+    background:url("images/imgKh4.png") no-repeat center;
+    border:4px solid #ff4c14;
+    transform: skew(10deg,10deg);
+    -ms-transform: skew(10deg,10deg);
+    -webkit-transform: skew(10deg,10deg);
+}
+.post {
+    width:510px;
+    padding: 0px 20px 0 20px;
+    line-height: 200%;
+}
+.post h2{
+    color:red;
+}
+.post .entry {  /* Đoạn nội dung văn bản hiển thị*/
+    padding: 0 20px 0 20px;
+}
+.post h3 {
+    font-size: 1.1em; font-weight: normal;
+}
+#sidebar2{
+    float:left;
+    width: 220px;
+    padding-left: 20px;
+    background-color: #FFFFFF;
+}
+.frame{
+    background-color: #FFFFFF;
+    margin: 0px;
+}
+.frame .subsidebar{
+    border: 1px solid #8c0209;
+    border-radius: 20px 0px 0px 0px;
+    color: white;
+}
+.frame .subsidebar_thoitrang{
+    color: white;
+}
+.bar_title{
+    background-color: #8c0209;
+    border-radius: 20px 0px 20px 0px;
+    height: 40px;
+    padding-left: 20px;
+}
+.bar_title p{
+    margin: auto 0px;
+    float: left;
+    padding-top: 10px;
+}
+.bar_title img{
+    top:-5px;
+    padding-top: 5px;
+    float: left;
+}
+.subsideframe{
+    color: black;
+    text-align: center;
+}
+.subsidecontent ul{
+    padding: 0 5px;
+}
+.subsidecontent li{
+    border-bottom: 1px dashed red;
+    padding: 10px 0;
+}
+.subsidecontent a{
+    text-decoration: none;
+    color: red;
+}
+.subsidecontent img{
+    width: 205px;
+}
+#footer{
+    width:960px;
+    height:70px;
+    margin:0 auto;
+    padding:0 20px;
+    background-color:#FFFFFF;
+    border-radius: 0px 0px 30px 0px;
+}
+.copyright{
+    float: left;
+}
+.fb_yt{
+    float:right;
+    margin-top:10px
+}
